@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Equipazos</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="plantilla">Plantilla</string>
+    <string name="add">Añadir Jugador</string>
+    <string name="addEquipo">Añadir Equipo</string>
+    <string name="title_activity_plantilla">Plantilla</string>
+    <string name="crear">Crear</string>
+    <string name="editar">Editar</string>
+    <string name="servidor">Cambiar servidor</string>
+    <string name="dialogoTitulo">Eliminar equipo seleccionado</string>
+    <string name="dialogoMensaje">¿Seguro que quiere eliminar permanentemenete este equipo?</string>
+    <string name="confirmacion">Sí</string>
+    <string name="cancelar">No</string>
+    <string name="club">Club</string>
+    <string name="jugador">Jugador</string>
+    <string name="nombre">Nombre del club</string>
+    <string name="estadio">Estadio</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="aforo">Aforo</string>
+    <string name="error">Rellene todos los campos para crear un nuevo registro</string>
+    <string name="nombreJugador">Nombre del jugador</string>
+    <string name="apellidos">Apellidos del jugador</string>
+
+    <string name="conexion">Escriba la parte dinámica de la URL</string>
+    <string name="conexionbt">Conectar</string>
+    <string name="conexionlabel">Conexión</string>
+</resources>

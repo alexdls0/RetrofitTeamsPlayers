@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proyectoeloquentequipos">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Conexion"
+            android:label="@string/conexionlabel"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Menu" />
+        <activity
+            android:name=".EditEquipo"
+            android:label="@string/editar"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".EditJugador"
+            android:label="@string/editar"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AddEquipo"
+            android:label="@string/addEquipo"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AddPlayer"
+            android:label="@string/add"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SingleJugador"
+            android:label="@string/jugador"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SingleEquipo"
+            android:label="@string/club"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Plantilla"
+            android:label="@string/title_activity_plantilla"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
